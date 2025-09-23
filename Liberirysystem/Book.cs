@@ -2,8 +2,9 @@
 
 namespace LibrarySystem
 {
-    internal class Book
-    {
+    public class Book   {
+        //id för böcker 
+        public int Id { get; set; }
         //författarens namn
         public string Author { get; set; } = "";
         //Unik ID för boken

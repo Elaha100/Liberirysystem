@@ -2,11 +2,11 @@
 
 namespace LibrarySystem
 {
-    internal class Customer
+    public class Customer
     { //kundens namn
-        public string Name { get; set; } = "";
+        public string Name { get; set; } = "";   
         //public ID för användaren
-        public int UserId { get; set; }
+        public int UserId { get; set; } 
         //Emailadress
         public string Email { get; set; } = "";
         //Låna något (Book, DVD, Magazine)

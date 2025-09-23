@@ -2,7 +2,7 @@
 
 namespace LibrarySystem
 {
-    internal class Loan
+    public class Loan
     {
         //Unikt ID för lån
         public int LoanId { get; set; }

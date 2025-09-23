@@ -2,7 +2,8 @@
 
 namespace LibrarySystem
 {
-    internal class DVD
+    //Klassen DVD representerar en film
+    public class DVD
     {
         //Titel på DVD:n
         public string Titel { get; set; } = "";

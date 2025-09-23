@@ -2,7 +2,8 @@
 
     namespace LibrarySystem
 {
-    internal class Magazine
+    //Klassen Magazine represenrerar en tidning 
+    public class Magazine
     {
         //utgivare
         public string Publisher { get; set; } = "";
